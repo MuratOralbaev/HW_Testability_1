@@ -1,8 +1,8 @@
 package sample;
 
 public class BonusMilesService {
-    public int calculate(int price, int numberPerMile) {
-        int miles = price / numberPerMile;
+    public int calculate(int price) {
+        int miles = price / 20;
         return miles;
     }
 }
